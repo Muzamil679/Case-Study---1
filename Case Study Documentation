@@ -1,6 +1,29 @@
 # Case-Study---1
 How-does-a-bike-shared-navigate-speedy-success_-1
-**12-06-2024 - Data Cleaning**
-- Added
+
+
+**10-06-2024 - Ask**
+  Three questions will guide the future marketing program:
+      1. How do annual members and casual riders use Cyclistic bikes differently?
+      2. Why would casual riders buy Cyclistic annual memberships?
+      3. How can Cyclistic use digital media to influence casual riders to become members?
+          
+      Moreno has assigned you the first question to answer: How do annual members and casual
+      riders use Cyclistic bikes differently?
+
+**11-06-2024 - Prepare**
+  Download data and store it appropriately.
+      ● Identify how it’s organized.
+      ● Sort and filter the data.
+      ● Determine the credibility of the data.
+
+Step 1 - Saved all files as xlxs.
+Step 2 - in file 202306-divvy-tripdata replaced ride_id with random number
+
+**12-06-2024 - Process** from 06 to 10
+ - Added two columns in all files
+      - ride_len = ended_at - started_at
+      - Weekday = =WEEKDAY(started_at,1)
+
 
 
